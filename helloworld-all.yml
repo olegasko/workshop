@@ -23,7 +23,7 @@ kind: Service
 metadata:
   name: helloworld-all-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 80
     protocol: TCP
