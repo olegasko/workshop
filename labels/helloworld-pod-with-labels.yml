@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: helloworld
+  name: helloworld-selectors
   labels:
     env: production
     application_type: ui
